@@ -6,7 +6,7 @@
       "title": "Which gateway should I use"
     },
     {
-      "description": "The standalone AI gateway is being squeezed from both ends. Underneath, hyperscalers now ship routing and spend caps natively; above, the coding-agent wave produced a faster-growing class of gateway that most round-ups miss. The part that consolidated is the independent middle — a company whose entire product was the gateway.\nNot a collapse — the same year, LiteLLM ⭐ 56.3k kept compounding, Bifrost ⭐ 7.3k won on measured overhead, Envoy AI Gateway reached v1.0 (Jun 23) as the first CNCF-backed production-stable option, and the coding-agent tier plus token-compression proxies became the fastest-growing categories in this list.\nThree things that changes for you: check the last commit before the feature matrix; prefer code you can keep over a control plane you cannot; and if your traffic already lives in one cloud, that cloud's native gateway is now a real answer.\n📉 The full picture — the consolidation evidence, the six-check evaluation standard, and three dated predictions with their disproof conditions: LANDSCAPE.md",
+      "description": "The standalone AI gateway is being squeezed from both ends. Underneath, hyperscalers now ship routing and spend caps natively; above, the coding-agent wave produced a faster-growing class of gateway that most round-ups miss. The part that consolidated is the independent middle — a company whose entire product was the gateway.\nNot a collapse — the same year, LiteLLM ⭐ 56.4k kept compounding, Bifrost ⭐ 7.3k won on measured overhead, Envoy AI Gateway reached v1.0 (Jun 23) as the first CNCF-backed production-stable option, and the coding-agent tier plus token-compression proxies became the fastest-growing categories in this list.\nThree things that changes for you: check the last commit before the feature matrix; prefer code you can keep over a control plane you cannot; and if your traffic already lives in one cloud, that cloud's native gateway is now a real answer.\n📉 The full picture — the consolidation evidence, the six-check evaluation standard, and three dated predictions with their disproof conditions: LANDSCAPE.md",
       "items": [],
       "title": "🌍 State of the landscape (2026)"
     },
@@ -36,10 +36,10 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-14T16:54:40Z",
+            "last_commit": "2026-08-15T22:58:49Z",
             "owner": "tashfeenahmed",
             "repo": "freellmapi",
-            "stars": 18519
+            "stars": 18580
           }
         },
         {
@@ -50,10 +50,10 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T15:27:52Z",
+            "last_commit": "2026-08-16T01:38:02Z",
             "owner": "tbphp",
             "repo": "gpt-load",
-            "stars": 6278
+            "stars": 6280
           }
         },
         {
@@ -64,7 +64,7 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-06T17:48:38Z",
+            "last_commit": "2026-08-15T06:59:30Z",
             "owner": "glama-ai",
             "repo": "lightport",
             "stars": 15
@@ -84,63 +84,63 @@
         {
           "node_type": "item",
           "title": "headroom",
-          "description": "⭐ 66.3k - Apache-2.0 context-compression layer shipping as a library, a drop-in local proxy () and an MCP server: it shrinks tool outputs, logs, files and RAG chunks reversibly before they reach the model. Not a multi-provider router — reach for it when the bill is driven by context size rather than model choice, and pair it with a router. Its 15–20% (coding agents) / 60–95% (JSON) savings figures are the project's own.",
+          "description": "⭐ 66.4k - Apache-2.0 context-compression layer shipping as a library, a drop-in local proxy () and an MCP server: it shrinks tool outputs, logs, files and RAG chunks reversibly before they reach the model. Not a multi-provider router — reach for it when the bill is driven by context size rather than model choice, and pair it with a router. Its 15–20% (coding agents) / 60–95% (JSON) savings figures are the project's own.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T21:40:49Z",
+            "last_commit": "2026-08-16T00:57:42Z",
             "owner": "headroomlabs-ai",
             "repo": "headroom",
-            "stars": 66378
+            "stars": 66457
           }
         },
         {
           "node_type": "item",
           "title": "LiteLLM",
-          "description": "⭐ 56.3k - The default choice: Python SDK + proxy server speaking OpenAI format to 100+ providers (local Ollama included), with virtual keys, budgets, load balancing and guardrails; the admin UI / virtual keys need a Postgres database.",
+          "description": "⭐ 56.4k - The default choice: Python SDK + proxy server speaking OpenAI format to 100+ providers (local Ollama included), with virtual keys, budgets, load balancing and guardrails; the admin UI / virtual keys need a Postgres database.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T01:59:36Z",
+            "last_commit": "2026-08-16T01:00:01Z",
             "owner": "BerriAI",
             "repo": "litellm",
-            "stars": 56359
+            "stars": 56426
           }
         },
         {
           "node_type": "item",
           "title": "OmniRoute",
-          "description": "⭐ 47.4k - MIT self-hosted TypeScript gateway: one endpoint to 231+ providers (50+ free), plugging Claude Code / Codex / Cursor / Cline / Copilot into free Claude/GPT/Gemini with stacked token compression (15–95% savings), 17 routing strategies, smart auto-fallback and MCP/A2A. A 2026 breakout of the coding-agent \"token-saver\" wave — genuine code (not a relay farm), but its free/OAuth coding-tier routing carries provider-ToS/account-ban risk.",
+          "description": "⭐ 48.1k - MIT self-hosted TypeScript gateway: one endpoint to 231+ providers (50+ free), plugging Claude Code / Codex / Cursor / Cline / Copilot into free Claude/GPT/Gemini with stacked token compression (15–95% savings), 17 routing strategies, smart auto-fallback and MCP/A2A. A 2026 breakout of the coding-agent \"token-saver\" wave — genuine code (not a relay farm), but its free/OAuth coding-tier routing carries provider-ToS/account-ban risk.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-15T01:42:53Z",
+            "last_commit": "2026-08-16T01:45:55Z",
             "owner": "diegosouzapw",
             "repo": "OmniRoute",
-            "stars": 48042
+            "stars": 48612
           }
         },
         {
           "node_type": "item",
           "title": "CLIProxyAPI",
-          "description": "⭐ 47.2k - Go gateway that wraps coding-agent CLI subscriptions (Claude Code, Codex, Gemini, Grok, Antigravity) into OpenAI/Gemini/Claude/Codex-compatible APIs with multi-account pools, round-robin load balancing and a management API; one of the highest-starred OSS gateways in the space. BYO accounts — but routing OAuth coding-tier subscriptions through an API can violate provider ToS, so weigh account-ban risk. Companion: CPA-Manager-Plus ⭐ 2.6k — a self-hosted management panel + observability dashboard for it (requests, usage, cost, quota, failures, account health); the same ToS caveat applies.",
+          "description": "⭐ 47.3k - Go gateway that wraps coding-agent CLI subscriptions (Claude Code, Codex, Gemini, Grok, Antigravity) into OpenAI/Gemini/Claude/Codex-compatible APIs with multi-account pools, round-robin load balancing and a management API; one of the highest-starred OSS gateways in the space. BYO accounts — but routing OAuth coding-tier subscriptions through an API can violate provider ToS, so weigh account-ban risk. Companion: CPA-Manager-Plus ⭐ 2.6k — a self-hosted management panel + observability dashboard for it (requests, usage, cost, quota, failures, account health); the same ToS caveat applies.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T21:46:19Z",
+            "last_commit": "2026-08-15T21:36:49Z",
             "owner": "router-for-me",
             "repo": "CLIProxyAPI",
-            "stars": 47313
+            "stars": 47376
           }
         },
         {
           "node_type": "item",
           "title": "9router",
-          "description": "⭐ 25.4k - MIT self-hosted BYOK local proxy that auto-routes across 40+ providers with subscription→cheap→free fallback, multi-account load balancing and token compression; cost-first and very popular. Two cautions, and the security one is the bigger: 19 published advisories — 6 critical, 11 high, 12 of them in July 2026 alone — clustered on unauthenticated access to the proxy and the provider keys it holds, and three carry no recorded fix, two of those critical (see the supply-chain matrix below). Run it on a network you control, pinned to the newest release. Separately, its free/OAuth coding-tier routing (Claude Code, Codex, Kiro) carries provider-ToS/account-ban risk.",
+          "description": "⭐ 25.5k - MIT self-hosted BYOK local proxy that auto-routes across 40+ providers with subscription→cheap→free fallback, multi-account load balancing and token compression; cost-first and very popular. Two cautions, and the security one is the bigger: 19 published advisories — 6 critical, 11 high, 12 of them in July 2026 alone — clustered on unauthenticated access to the proxy and the provider keys it holds, and three carry no recorded fix, two of those critical (see the supply-chain matrix below). Run it on a network you control, pinned to the newest release. Separately, its free/OAuth coding-tier routing (Claude Code, Codex, Kiro) carries provider-ToS/account-ban risk.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -148,7 +148,7 @@
             "last_commit": "2026-08-14T10:08:34Z",
             "owner": "decolua",
             "repo": "9router",
-            "stars": 25451
+            "stars": 25508
           }
         },
         {
@@ -162,7 +162,7 @@
             "last_commit": "2026-08-13T18:46:20Z",
             "owner": "andrewyng",
             "repo": "aisuite",
-            "stars": 16093
+            "stars": 16096
           }
         },
         {
@@ -176,7 +176,7 @@
             "last_commit": "2026-05-25T13:54:51Z",
             "owner": "Portkey-AI",
             "repo": "gateway",
-            "stars": 12722
+            "stars": 12736
           }
         },
         {
@@ -190,7 +190,7 @@
             "last_commit": "2026-06-11T01:48:44Z",
             "owner": "tensorzero",
             "repo": "tensorzero",
-            "stars": 11723
+            "stars": 11724
           }
         },
         {
@@ -204,7 +204,7 @@
             "last_commit": "2026-03-12T10:00:31Z",
             "owner": "coaidev",
             "repo": "coai",
-            "stars": 9273
+            "stars": 9274
           }
         },
         {
@@ -215,10 +215,10 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-14T07:30:58Z",
+            "last_commit": "2026-08-15T17:23:09Z",
             "owner": "mnfst",
             "repo": "manifest",
-            "stars": 7444
+            "stars": 7446
           }
         },
         {
@@ -229,10 +229,10 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-15T01:49:00Z",
+            "last_commit": "2026-08-16T00:52:40Z",
             "owner": "maximhq",
             "repo": "bifrost",
-            "stars": 7321
+            "stars": 7332
           }
         },
         {
@@ -260,7 +260,7 @@
             "last_commit": "2026-07-25T01:10:06Z",
             "owner": "Helicone",
             "repo": "helicone",
-            "stars": 6070
+            "stars": 6073
           }
         },
         {
@@ -271,10 +271,10 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T10:25:47Z",
+            "last_commit": "2026-08-16T00:19:13Z",
             "owner": "looplj",
             "repo": "axonhub",
-            "stars": 4978
+            "stars": 4983
           }
         },
         {
@@ -288,7 +288,7 @@
             "last_commit": "2026-07-18T12:56:27Z",
             "owner": "algorithmicsuperintelligence",
             "repo": "optillm",
-            "stars": 4239
+            "stars": 4241
           }
         },
         {
@@ -327,24 +327,24 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-14T23:03:23Z",
+            "last_commit": "2026-08-16T00:08:00Z",
             "owner": "theopenco",
             "repo": "llmgateway",
-            "stars": 1534
+            "stars": 1539
           }
         },
         {
           "node_type": "item",
           "title": "Paritok",
-          "description": "⭐ 1.2k - Apache-2.0 compression gateway for coding agents: fronts any agent (Claude Code, Cursor, Codex, OpenHands) and compresses conversation context with an open-weights 4B code model, to fit more turns in the same window. Same niche as headroom, different mechanism — a learned model rather than content-aware rules. Early-stage (repo opened 2026-07); its 25%→85% savings curve is vendor-run.",
+          "description": "⭐ 1.3k - Apache-2.0 compression gateway for coding agents: fronts any agent (Claude Code, Cursor, Codex, OpenHands) and compresses conversation context with an open-weights 4B code model, to fit more turns in the same window. Same niche as headroom, different mechanism — a learned model rather than content-aware rules. Early-stage (repo opened 2026-07); its 25%→85% savings curve is vendor-run.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T22:15:08Z",
+            "last_commit": "2026-08-16T01:39:15Z",
             "owner": "Paritok-official",
             "repo": "paritok-4b-v1",
-            "stars": 1322
+            "stars": 1355
           }
         },
         {
@@ -369,10 +369,10 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-15T00:48:11Z",
+            "last_commit": "2026-08-16T01:56:39Z",
             "owner": "astaxie",
             "repo": "TokenHub",
-            "stars": 1069
+            "stars": 1074
           }
         },
         {
@@ -383,10 +383,10 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T22:08:33Z",
+            "last_commit": "2026-08-15T18:40:40Z",
             "owner": "ENTERPILOT",
             "repo": "GoModel",
-            "stars": 1053
+            "stars": 1058
           }
         },
         {
@@ -397,7 +397,7 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-15T01:16:14Z",
+            "last_commit": "2026-08-15T14:33:12Z",
             "owner": "caozhiyuan",
             "repo": "copilot-api",
             "stars": 967
@@ -406,7 +406,7 @@
         {
           "node_type": "item",
           "title": "CliRelay",
-          "description": "⭐ 913 - MIT Go gateway aimed at coding CLIs: one OpenAI/Claude/Gemini/Codex-compatible endpoint plus a multi-tenant web console with request logs and per-tenant spend quotas — the part most single-user coding proxies omit once you have to hand keys to a team.",
+          "description": "⭐ 917 - MIT Go gateway aimed at coding CLIs: one OpenAI/Claude/Gemini/Codex-compatible endpoint plus a multi-tenant web console with request logs and per-tenant spend quotas — the part most single-user coding proxies omit once you have to hand keys to a team.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -414,7 +414,7 @@
             "last_commit": "2026-08-14T15:33:35Z",
             "owner": "kittors",
             "repo": "CliRelay",
-            "stars": 917
+            "stars": 919
           }
         },
         {
@@ -425,7 +425,7 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-14T23:19:01Z",
+            "last_commit": "2026-08-15T17:55:41Z",
             "owner": "smg-project",
             "repo": "smg",
             "stars": 461
@@ -434,7 +434,7 @@
         {
           "node_type": "item",
           "title": "Otari",
-          "description": "⭐ 381 - Mozilla AI's self-hosted gateway (Apache-2.0, Python): one OpenAI- and Anthropic-compatible endpoint over 40+ providers via any-llm, with virtual keys, per-user/per-key budgets enforced before a request runs, and spend tracking; single-Docker start, optional hosted platform (otari.ai). Launched April 2026 and one of July's fastest risers.",
+          "description": "⭐ 382 - Mozilla AI's self-hosted gateway (Apache-2.0, Python): one OpenAI- and Anthropic-compatible endpoint over 40+ providers via any-llm, with virtual keys, per-user/per-key budgets enforced before a request runs, and spend tracking; single-Docker start, optional hosted platform (otari.ai). Launched April 2026 and one of July's fastest risers.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -442,27 +442,27 @@
             "last_commit": "2026-08-14T19:20:19Z",
             "owner": "mozilla-ai",
             "repo": "otari",
-            "stars": 382
+            "stars": 388
           }
         },
         {
           "node_type": "item",
           "title": "dario",
-          "description": "⭐ 343 - Local OpenAI- and Anthropic-compatible proxy (MIT) that brings a Claude Pro/Max subscription to Cursor, Cline, Aider and the Agent SDK, with session-affinity routing, multi-account pooling and drift detection. ⚠️ Routing OAuth coding-tier subscriptions through an API carries provider-ToS / account-ban risk (same cohort as CLIProxyAPI).",
+          "description": "⭐ 344 - Local OpenAI- and Anthropic-compatible proxy (MIT) that brings a Claude Pro/Max subscription to Cursor, Cline, Aider and the Agent SDK, with session-affinity routing, multi-account pooling and drift detection. ⚠️ Routing OAuth coding-tier subscriptions through an API carries provider-ToS / account-ban risk (same cohort as CLIProxyAPI).",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "JavaScript",
-            "last_commit": "2026-08-15T00:33:14Z",
+            "last_commit": "2026-08-15T13:15:40Z",
             "owner": "askalf",
             "repo": "dario",
-            "stars": 344
+            "stars": 345
           }
         },
         {
           "node_type": "item",
           "title": "Traceloop Hub",
-          "description": "⭐ 226 - High-scale gateway written in Rust from the Traceloop team (OpenLLMetry / OTel-for-LLMs); OpenTelemetry-native observability built in.",
+          "description": "⭐ 225 - High-scale gateway written in Rust from the Traceloop team (OpenLLMetry / OTel-for-LLMs); OpenTelemetry-native observability built in.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -518,7 +518,7 @@
         {
           "node_type": "item",
           "title": "Aurora Gateway",
-          "description": "⭐ 33 - Go single-binary gateway that auto-discovers providers from environment variables, with provider pools, exact/semantic/prompt caching, guardrails, audit logging and usage analytics (Apache-2.0). Early-stage (launched mid-2026, single maintainer); its headline speed-vs-LiteLLM figures are vendor-run.",
+          "description": "⭐ 34 - Go single-binary gateway that auto-discovers providers from environment variables, with provider pools, exact/semantic/prompt caching, guardrails, audit logging and usage analytics (Apache-2.0). Early-stage (launched mid-2026, single maintainer); its headline speed-vs-LiteLLM figures are vendor-run.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -551,10 +551,10 @@
           "repo_info": {
             "archived": false,
             "language": "JavaScript",
-            "last_commit": "2026-08-14T17:44:26Z",
+            "last_commit": "2026-08-15T16:09:00Z",
             "owner": "happy520ai",
             "repo": "unified-ai-system",
-            "stars": 4
+            "stars": 5
           }
         },
         {
@@ -579,7 +579,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T18:25:23Z",
+            "last_commit": "2026-08-16T01:01:15Z",
             "owner": "zangxin75",
             "repo": "token-efficiency",
             "stars": 0
@@ -602,7 +602,7 @@
             "last_commit": "2026-08-04T09:27:18Z",
             "owner": "Kong",
             "repo": "kong",
-            "stars": 43984
+            "stars": 43987
           }
         },
         {
@@ -616,7 +616,7 @@
             "last_commit": "2026-08-14T09:59:27Z",
             "owner": "apache",
             "repo": "apisix",
-            "stars": 16995
+            "stars": 16997
           }
         },
         {
@@ -658,7 +658,7 @@
             "last_commit": "2026-08-14T11:25:42Z",
             "owner": "krakend",
             "repo": "krakend-ce",
-            "stars": 2662
+            "stars": 2665
           }
         },
         {
@@ -669,10 +669,10 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T05:13:51Z",
+            "last_commit": "2026-08-15T20:11:11Z",
             "owner": "envoyproxy",
             "repo": "ai-gateway",
-            "stars": 1927
+            "stars": 1929
           }
         },
         {
@@ -698,15 +698,15 @@
         {
           "node_type": "item",
           "title": "sub2api",
-          "description": "⭐ 37k - Go relay platform that pools Claude/OpenAI/Gemini/Antigravity subscription accounts (OAuth, session keys, API keys) behind one OpenAI/Anthropic-compatible endpoint, adding cost-sharing \"carpool\" billing (Stripe/Alipay/WeChat), key distribution and per-token rate limits. One of 2026's fastest-rising China-ecosystem relays — but account-pooling sits adjacent to the resold-relay category this list excludes; BYO accounts and vet before use.",
+          "description": "⭐ 37.1k - Go relay platform that pools Claude/OpenAI/Gemini/Antigravity subscription accounts (OAuth, session keys, API keys) behind one OpenAI/Anthropic-compatible endpoint, adding cost-sharing \"carpool\" billing (Stripe/Alipay/WeChat), key distribution and per-token rate limits. One of 2026's fastest-rising China-ecosystem relays — but account-pooling sits adjacent to the resold-relay category this list excludes; BYO accounts and vet before use.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-15T01:00:16Z",
+            "last_commit": "2026-08-16T00:36:46Z",
             "owner": "Wei-Shaw",
             "repo": "sub2api",
-            "stars": 37065
+            "stars": 37150
           }
         },
         {
@@ -720,7 +720,7 @@
             "last_commit": "2026-01-09T03:26:43Z",
             "owner": "songquanpeng",
             "repo": "one-api",
-            "stars": 36382
+            "stars": 36396
           }
         },
         {
@@ -731,10 +731,10 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T10:03:57Z",
+            "last_commit": "2026-08-15T05:39:59Z",
             "owner": "higress-group",
             "repo": "higress",
-            "stars": 9101
+            "stars": 9108
           }
         },
         {
@@ -776,7 +776,7 @@
             "last_commit": "2026-08-14T06:46:24Z",
             "owner": "bestruirui",
             "repo": "octopus",
-            "stars": 2363
+            "stars": 2364
           }
         },
         {
@@ -804,21 +804,21 @@
             "last_commit": "2026-02-11T09:14:23Z",
             "owner": "Veloera",
             "repo": "Veloera",
-            "stars": 1627
+            "stars": 1626
           }
         },
         {
           "node_type": "item",
           "title": "uni-api",
-          "description": "⭐ 1.2k - Lightweight single-config unified API manager, no frontend.",
+          "description": "⭐ 1.3k - Lightweight single-config unified API manager, no frontend.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T22:30:31Z",
+            "last_commit": "2026-08-15T20:46:21Z",
             "owner": "yym68686",
             "repo": "uni-api",
-            "stars": 1251
+            "stars": 1255
           }
         },
         {
@@ -838,7 +838,7 @@
         {
           "node_type": "item",
           "title": "AIHelms",
-          "description": "⭐ 964 - GPL-3.0 enterprise AI-asset governance platform (FastAPI + Vue3): a unified gateway over OpenAI/Azure/Claude/DeepSeek with token scheduling, internal-vs-external dual pricing, cost attribution, SSO, audit logging and centralized MCP-tool/skill distribution. Governance-first rather than throughput-first — closer to the enterprise-compliance section than to the relay panels above.",
+          "description": "⭐ 974 - GPL-3.0 enterprise AI-asset governance platform (FastAPI + Vue3): a unified gateway over OpenAI/Azure/Claude/DeepSeek with token scheduling, internal-vs-external dual pricing, cost attribution, SSO, audit logging and centralized MCP-tool/skill distribution. Governance-first rather than throughput-first — closer to the enterprise-compliance section than to the relay panels above.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -846,13 +846,13 @@
             "last_commit": "2026-08-14T08:28:43Z",
             "owner": "beizhu-1209",
             "repo": "AIHelms",
-            "stars": 973
+            "stars": 983
           }
         },
         {
           "node_type": "item",
           "title": "done-hub",
-          "description": "⭐ 802 - Fork of one-api/new-api with richer billing and channel management.",
+          "description": "⭐ 803 - Fork of one-api/new-api with richer billing and channel management.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -880,7 +880,7 @@
         {
           "node_type": "item",
           "title": "CrossLink",
-          "description": "⭐ 405 - Unified LLM proxy gateway (Apache-2.0) with load balancing, failover, rate limiting, budget management, content auditing, caching and an MCP gateway layer.",
+          "description": "⭐ 408 - Unified LLM proxy gateway (Apache-2.0) with load balancing, failover, rate limiting, budget management, content auditing, caching and an MCP gateway layer.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -919,7 +919,7 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T17:58:01Z",
+            "last_commit": "2026-08-15T02:08:22Z",
             "owner": "pomerium",
             "repo": "pomerium",
             "stars": 4956
@@ -933,16 +933,16 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-14T08:50:21Z",
+            "last_commit": "2026-08-15T03:18:44Z",
             "owner": "oomol-lab",
             "repo": "open-connector",
-            "stars": 4683
+            "stars": 4696
           }
         },
         {
           "node_type": "item",
           "title": "agentgateway",
-          "description": "⭐ 4.3k - Linux Foundation proxy for agentic traffic (LF Projects, per its own CHARTER — not a CNCF-hosted project): MCP governance and agent-to-agent (A2A) communication.",
+          "description": "⭐ 4.4k - Linux Foundation proxy for agentic traffic (LF Projects, per its own CHARTER — not a CNCF-hosted project): MCP governance and agent-to-agent (A2A) communication.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -950,7 +950,7 @@
             "last_commit": "2026-08-14T19:46:39Z",
             "owner": "agentgateway",
             "repo": "agentgateway",
-            "stars": 4359
+            "stars": 4367
           }
         },
         {
@@ -964,7 +964,7 @@
             "last_commit": "2026-08-14T16:50:34Z",
             "owner": "IBM",
             "repo": "mcp-context-forge",
-            "stars": 4322
+            "stars": 4324
           }
         },
         {
@@ -975,10 +975,10 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-15T01:07:03Z",
+            "last_commit": "2026-08-16T01:58:07Z",
             "owner": "archestra-ai",
             "repo": "archestra",
-            "stars": 4186
+            "stars": 4189
           }
         },
         {
@@ -992,7 +992,7 @@
             "last_commit": "2026-08-14T21:29:59Z",
             "owner": "ascending-llc",
             "repo": "jarvis-registry",
-            "stars": 2808
+            "stars": 2755
           }
         },
         {
@@ -1006,7 +1006,7 @@
             "last_commit": "2026-06-22T16:50:50Z",
             "owner": "metatool-ai",
             "repo": "metamcp",
-            "stars": 2605
+            "stars": 2606
           }
         },
         {
@@ -1020,7 +1020,7 @@
             "last_commit": "2026-08-04T14:48:03Z",
             "owner": "AmoyLab",
             "repo": "Unla",
-            "stars": 2202
+            "stars": 2205
           }
         },
         {
@@ -1034,7 +1034,7 @@
             "last_commit": "2026-08-15T00:43:28Z",
             "owner": "stacklok",
             "repo": "toolhive",
-            "stars": 2014
+            "stars": 2015
           }
         },
         {
@@ -1048,7 +1048,7 @@
             "last_commit": "2026-08-13T18:48:45Z",
             "owner": "docker",
             "repo": "mcp-gateway",
-            "stars": 1529
+            "stars": 1530
           }
         },
         {
@@ -1062,7 +1062,7 @@
             "last_commit": "2026-08-02T15:15:01Z",
             "owner": "mcpjungle",
             "repo": "MCPJungle",
-            "stars": 1205
+            "stars": 1207
           }
         },
         {
@@ -1076,7 +1076,7 @@
             "last_commit": "2026-08-14T19:52:28Z",
             "owner": "obot-platform",
             "repo": "obot",
-            "stars": 943
+            "stars": 944
           }
         },
         {
@@ -1087,7 +1087,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T01:30:44Z",
+            "last_commit": "2026-08-15T15:37:21Z",
             "owner": "agentic-community",
             "repo": "mcp-gateway-registry",
             "stars": 862
@@ -1104,7 +1104,7 @@
             "last_commit": "2026-08-12T22:21:29Z",
             "owner": "microsoft",
             "repo": "mcp-gateway",
-            "stars": 783
+            "stars": 784
           }
         },
         {
@@ -1115,10 +1115,10 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-14T15:45:20Z",
+            "last_commit": "2026-08-15T02:16:02Z",
             "owner": "1mcp-app",
             "repo": "agent",
-            "stars": 483
+            "stars": 484
           }
         },
         {
@@ -1132,7 +1132,7 @@
             "last_commit": "2026-07-10T06:22:22Z",
             "owner": "fdmtl",
             "repo": "director",
-            "stars": 481
+            "stars": 482
           }
         },
         {
@@ -1171,7 +1171,7 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T20:33:39Z",
+            "last_commit": "2026-08-15T23:09:04Z",
             "owner": "smart-mcp-proxy",
             "repo": "mcpproxy-go",
             "stars": 314
@@ -1180,15 +1180,15 @@
         {
           "node_type": "item",
           "title": "toolport",
-          "description": "⭐ 165 - Local-first MCP gateway (MIT): one port for every tool and every AI client, with lazy tool discovery (~90% token savings, per its docs), tool integrity checks + quarantine, and secrets kept in the OS keychain.",
+          "description": "⭐ 167 - Local-first MCP gateway (MIT): one port for every tool and every AI client, with lazy tool discovery (~90% token savings, per its docs), tool integrity checks + quarantine, and secrets kept in the OS keychain.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-14T23:01:00Z",
+            "last_commit": "2026-08-16T02:08:29Z",
             "owner": "tsouth89",
             "repo": "toolport",
-            "stars": 167
+            "stars": 170
           }
         },
         {
@@ -1213,7 +1213,7 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-15T01:57:05Z",
+            "last_commit": "2026-08-16T02:09:40Z",
             "owner": "anthony-chaudhary",
             "repo": "fak",
             "stars": 30
@@ -1233,7 +1233,7 @@
         {
           "node_type": "item",
           "title": "Claude Code Router",
-          "description": "⭐ 36.6k - Route Claude Code (and other agent CLIs) to any model/provider — DeepSeek, Qwen, local — by request type.",
+          "description": "⭐ 36.7k - Route Claude Code (and other agent CLIs) to any model/provider — DeepSeek, Qwen, local — by request type.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1241,21 +1241,21 @@
             "last_commit": "2026-08-14T15:21:11Z",
             "owner": "musistudio",
             "repo": "claude-code-router",
-            "stars": 36659
+            "stars": 36678
           }
         },
         {
           "node_type": "item",
           "title": "opencodex",
-          "description": "⭐ 9.9k - Universal provider proxy (MIT) for OpenAI Codex and Claude Code: translates Codex's Responses API to any provider (Claude, Gemini, Grok, DeepSeek, local Ollama) with streaming, tool calls, reasoning tokens and images intact — to Codex what Claude Code Router is to Claude Code. ⚠️ Its ChatGPT account-pool management sits in the same provider-ToS / account-ban-risk cohort as CLIProxyAPI.",
+          "description": "⭐ 10k - Universal provider proxy (MIT) for OpenAI Codex and Claude Code: translates Codex's Responses API to any provider (Claude, Gemini, Grok, DeepSeek, local Ollama) with streaming, tool calls, reasoning tokens and images intact — to Codex what Claude Code Router is to Claude Code. ⚠️ Its ChatGPT account-pool management sits in the same provider-ToS / account-ban-risk cohort as CLIProxyAPI.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-15T01:33:08Z",
+            "last_commit": "2026-08-16T01:57:20Z",
             "owner": "lidge-jun",
             "repo": "opencodex",
-            "stars": 9985
+            "stars": 10219
           }
         },
         {
@@ -1269,7 +1269,7 @@
             "last_commit": "2026-08-12T15:29:00Z",
             "owner": "BlockRunAI",
             "repo": "ClawRouter",
-            "stars": 6609
+            "stars": 6557
           }
         },
         {
@@ -1283,7 +1283,7 @@
             "last_commit": "2024-08-10T19:10:15Z",
             "owner": "lm-sys",
             "repo": "RouteLLM",
-            "stars": 5347
+            "stars": 5349
           }
         },
         {
@@ -1294,7 +1294,7 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T09:18:55Z",
+            "last_commit": "2026-08-16T01:04:18Z",
             "owner": "vllm-project",
             "repo": "semantic-router",
             "stars": 5158
@@ -1308,30 +1308,30 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T18:11:11Z",
+            "last_commit": "2026-08-15T22:23:08Z",
             "owner": "ulab-uiuc",
             "repo": "LLMRouter",
-            "stars": 2347
+            "stars": 2355
           }
         },
         {
           "node_type": "item",
           "title": "workweave/router",
-          "description": "⭐ 950 - Go router for agentic systems: routes each prompt to the right model in <50ms behind one OpenAI-compatible endpoint, pitched as a drop-in endpoint swap that cuts 40–70% of cost.",
+          "description": "⭐ 952 - Go router for agentic systems: routes each prompt to the right model in <50ms behind one OpenAI-compatible endpoint, pitched as a drop-in endpoint swap that cuts 40–70% of cost.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-15T00:42:48Z",
+            "last_commit": "2026-08-15T03:00:22Z",
             "owner": "workweave",
             "repo": "router",
-            "stars": 951
+            "stars": 957
           }
         },
         {
           "node_type": "item",
           "title": "UncommonRoute",
-          "description": "⭐ 686 - MIT drop-in OpenAI proxy that routes by prompt difficulty; markets hard numbers (≈82% cost savings, 79.4% accuracy, 93.4% pass rate) and integrates with Claude Code / Cursor / Codex.",
+          "description": "⭐ 685 - MIT drop-in OpenAI proxy that routes by prompt difficulty; markets hard numbers (≈82% cost savings, 79.4% accuracy, 93.4% pass rate) and integrates with Claude Code / Cursor / Codex.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1345,7 +1345,7 @@
         {
           "node_type": "item",
           "title": "NadirClaw",
-          "description": "⭐ 641 - Self-hosted, OpenAI-compatible router (Python) that sends simple prompts to cheap/local models and hard ones to premium, with a trained cascade verifier to cut API cost 40–70%.",
+          "description": "⭐ 642 - Self-hosted, OpenAI-compatible router (Python) that sends simple prompts to cheap/local models and hard ones to premium, with a trained cascade verifier to cut API cost 40–70%.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1359,7 +1359,7 @@
         {
           "node_type": "item",
           "title": "OrcaRouter Lite",
-          "description": "⭐ 419 - MIT self-hosted single-workspace router (BYOK, OpenAI-compatible) from Continuum AI with a managed hosted upgrade path; ranks at/near the top of the RouterArena leaderboard.",
+          "description": "⭐ 456 - MIT self-hosted single-workspace router (BYOK, OpenAI-compatible) from Continuum AI with a managed hosted upgrade path; ranks at/near the top of the RouterArena leaderboard.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1367,7 +1367,7 @@
             "last_commit": "2026-05-28T07:51:22Z",
             "owner": "Continuum-AI-Corp",
             "repo": "OrcaRouter-Lite",
-            "stars": 456
+            "stars": 473
           }
         },
         {
@@ -1381,7 +1381,7 @@
             "last_commit": "2026-07-24T00:04:19Z",
             "owner": "NVIDIA-AI-Blueprints",
             "repo": "llm-router",
-            "stars": 338
+            "stars": 340
           }
         }
       ],
@@ -1398,10 +1398,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T16:55:19Z",
+            "last_commit": "2026-08-16T01:03:23Z",
             "owner": "mlflow",
             "repo": "mlflow",
-            "stars": 27521
+            "stars": 27529
           }
         },
         {
@@ -1415,7 +1415,7 @@
             "last_commit": "2026-08-14T02:56:18Z",
             "owner": "liaohch3",
             "repo": "claude-tap",
-            "stars": 3058
+            "stars": 3059
           }
         },
         {
@@ -1435,7 +1435,7 @@
         {
           "node_type": "item",
           "title": "ccglass",
-          "description": "⭐ 684 - Local proxy + web dashboard (MIT) that shows exactly what your coding agent (Claude Code, Codex, Kimi) sends to the model.",
+          "description": "⭐ 685 - Local proxy + web dashboard (MIT) that shows exactly what your coding agent (Claude Code, Codex, Kimi) sends to the model.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1443,7 +1443,7 @@
             "last_commit": "2026-07-09T02:04:02Z",
             "owner": "jianshuo",
             "repo": "ccglass",
-            "stars": 685
+            "stars": 691
           }
         },
         {
@@ -1454,7 +1454,7 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-14T15:39:23Z",
+            "last_commit": "2026-08-15T11:10:52Z",
             "owner": "braintrustdata",
             "repo": "braintrust-proxy",
             "stars": 408
@@ -1474,10 +1474,10 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-15T02:02:08Z",
+            "last_commit": "2026-08-16T01:34:56Z",
             "owner": "ai-dynamo",
             "repo": "dynamo",
-            "stars": 7769
+            "stars": 7773
           }
         },
         {
@@ -1488,10 +1488,10 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T23:54:55Z",
+            "last_commit": "2026-08-15T14:51:12Z",
             "owner": "kserve",
             "repo": "kserve",
-            "stars": 5794
+            "stars": 5797
           }
         },
         {
@@ -1502,10 +1502,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T10:35:14Z",
+            "last_commit": "2026-08-15T15:33:35Z",
             "owner": "gpustack",
             "repo": "gpustack",
-            "stars": 5484
+            "stars": 5488
           }
         },
         {
@@ -1519,7 +1519,7 @@
             "last_commit": "2026-08-14T22:19:59Z",
             "owner": "vllm-project",
             "repo": "aibrix",
-            "stars": 5010
+            "stars": 5011
           }
         },
         {
@@ -1530,10 +1530,10 @@
           "repo_info": {
             "archived": false,
             "language": "Shell",
-            "last_commit": "2026-08-14T22:27:13Z",
+            "last_commit": "2026-08-15T17:06:40Z",
             "owner": "llm-d",
             "repo": "llm-d",
-            "stars": 4028
+            "stars": 4033
           }
         },
         {
@@ -1547,13 +1547,13 @@
             "last_commit": "2026-08-13T20:38:10Z",
             "owner": "vllm-project",
             "repo": "production-stack",
-            "stars": 2508
+            "stars": 2509
           }
         },
         {
           "node_type": "item",
           "title": "Gateway API Inference Extension",
-          "description": "⭐ 739 - The Kubernetes standard for inference-aware routing.",
+          "description": "⭐ 740 - The Kubernetes standard for inference-aware routing.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1581,7 +1581,7 @@
         {
           "node_type": "item",
           "title": "Olla",
-          "description": "⭐ 274 - Lightweight Go proxy + load balancer for LLM infra: intelligent routing and automatic failover across inference backends (Ollama, vLLM, LM Studio, OpenAI-compatible).",
+          "description": "⭐ 275 - Lightweight Go proxy + load balancer for LLM infra: intelligent routing and automatic failover across inference backends (Ollama, vLLM, LM Studio, OpenAI-compatible).",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1589,7 +1589,7 @@
             "last_commit": "2026-08-10T22:59:35Z",
             "owner": "thushan",
             "repo": "olla",
-            "stars": 275
+            "stars": 277
           }
         },
         {
@@ -1600,7 +1600,7 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-13T22:01:12Z",
+            "last_commit": "2026-08-15T17:46:27Z",
             "owner": "inference-gateway",
             "repo": "inference-gateway",
             "stars": 229
@@ -1625,15 +1625,15 @@
         {
           "node_type": "item",
           "title": "📦 Treat the gateway itself as supply chain. It sees every prompt and holds every provider key, so its own security posture is a buying criterion: in March 2026 LiteLLM's PyPI releases v1.82.7/.8 were backdoored via a CI-token compromise (quarantined in ~3h), and in June 2026 a LiteLLM RCE chain (CVE-2026-42271",
-          "description": ") entered CISA's KEV catalog — two different failure modes in one quarter, on the most-deployed OSS gateway. Practical hygiene: pin exact versions (never ), watch the project's security advisories + KEV, patch the control plane fast, keep the admin UI off the public internet, and pre-vet any third-party relay with an audit tool like api-relay-audit ⭐ 788 (checks prompt injection, model substitution, tool-call rewriting, SSE anomalies). Per-gateway posture — who signs releases, ships SBOMs, and what got exploited — is in the supply-chain matrix below.",
+          "description": ") entered CISA's KEV catalog — two different failure modes in one quarter, on the most-deployed OSS gateway. Practical hygiene: pin exact versions (never ), watch the project's security advisories + KEV, patch the control plane fast, keep the admin UI off the public internet, and pre-vet any third-party relay with an audit tool like api-relay-audit ⭐ 789 (checks prompt injection, model substitution, tool-call rewriting, SSE anomalies). Per-gateway posture — who signs releases, ships SBOMs, and what got exploited — is in the supply-chain matrix below.",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T11:15:30Z",
+            "last_commit": "2026-08-15T19:22:01Z",
             "owner": "toby-bridges",
             "repo": "api-relay-audit",
-            "stars": 788
+            "stars": 789
           }
         },
         {
@@ -1647,7 +1647,7 @@
             "last_commit": "2026-02-14T05:28:46Z",
             "owner": "MoonshotAI",
             "repo": "K2-Vendor-Verifier",
-            "stars": 589
+            "stars": 590
           }
         }
       ],
@@ -1669,7 +1669,7 @@
           "repo_info": {
             "archived": false,
             "language": "JavaScript",
-            "last_commit": "2026-08-15T01:50:08Z",
+            "last_commit": "2026-08-16T01:57:56Z",
             "owner": "cuihuan",
             "repo": "llm-gateway-bench",
             "stars": 1
@@ -1707,72 +1707,58 @@
       "items": [
         {
           "node_type": "item",
-          "title": "2026-08-13 · router-for-me/CLIProxyAPI v7.2.131",
-          "description": "v7.2.131",
+          "title": "2026-08-14 · router-for-me/CLIProxyAPI v7.2.132",
+          "description": "v7.2.132",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T21:46:19Z",
+            "last_commit": "2026-08-15T21:36:49Z",
             "owner": "router-for-me",
             "repo": "CLIProxyAPI",
-            "stars": 47313
+            "stars": 47376
           }
         },
         {
           "node_type": "item",
-          "title": "2026-08-14 · lidge-jun/opencodex v2.15.0",
-          "description": "v2.15.0",
+          "title": "2026-08-14 · musistudio/claude-code-router v3.0.21",
+          "description": "v3.0.21",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-15T01:33:08Z",
+            "last_commit": "2026-08-14T15:21:11Z",
+            "owner": "musistudio",
+            "repo": "claude-code-router",
+            "stars": 36678
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "2026-08-15 · lidge-jun/opencodex v2.19.0",
+          "description": "v2.19.0",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-16T01:57:20Z",
             "owner": "lidge-jun",
             "repo": "opencodex",
-            "stars": 9985
+            "stars": 10219
           }
         },
         {
           "node_type": "item",
-          "title": "2026-08-13 · higress-group/higress v2.2.4",
-          "description": "v2.2.4",
+          "title": "2026-08-14 · maximhq/bifrost ent-v1.5.11-base",
+          "description": "Enterprise v1.5.11 base",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T10:03:57Z",
-            "owner": "higress-group",
-            "repo": "higress",
-            "stars": 9101
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "2026-08-13 · maximhq/bifrost ent-v2.0.0-prerelease3-base",
-          "description": "Enterprise v2.0.0-prerelease3 base",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-15T01:49:00Z",
+            "last_commit": "2026-08-16T00:52:40Z",
             "owner": "maximhq",
             "repo": "bifrost",
-            "stars": 7321
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "2026-08-13 · archestra-ai/archestra platform-v1.3.36",
-          "description": "platform: v1.3.36",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-15T01:07:03Z",
-            "owner": "archestra-ai",
-            "repo": "archestra",
-            "stars": 4186
+            "stars": 7332
           }
         },
         {
@@ -1786,32 +1772,74 @@
             "last_commit": "2026-08-14T02:56:18Z",
             "owner": "liaohch3",
             "repo": "claude-tap",
-            "stars": 3058
+            "stars": 3059
           }
         },
         {
           "node_type": "item",
-          "title": "2026-08-13 · yym68686/uni-api v1.7.237",
-          "description": "Release 1.7.237",
+          "title": "2026-08-14 · krakend/krakend-ce v2.13.9",
+          "description": "v2.13.9",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-14T11:25:42Z",
+            "owner": "krakend",
+            "repo": "krakend-ce",
+            "stars": 2665
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "2026-08-14 · stacklok/toolhive v0.43.0",
+          "description": "v0.43.0",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-15T00:43:28Z",
+            "owner": "stacklok",
+            "repo": "toolhive",
+            "stars": 2015
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "2026-08-14 · yym68686/uni-api v1.7.239",
+          "description": "Release 1.7.239",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T22:30:31Z",
+            "last_commit": "2026-08-15T20:46:21Z",
             "owner": "yym68686",
             "repo": "uni-api",
-            "stars": 1251
+            "stars": 1255
           }
         },
         {
           "node_type": "item",
-          "title": "2026-08-14 · caozhiyuan/copilot-api v2.1.8",
-          "description": "v2.1.8",
+          "title": "2026-08-14 · ENTERPILOT/GoModel v0.1.75",
+          "description": "v0.1.75",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-15T18:40:40Z",
+            "owner": "ENTERPILOT",
+            "repo": "GoModel",
+            "stars": 1058
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "2026-08-15 · caozhiyuan/copilot-api v2.1.12",
+          "description": "v2.1.12",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-15T01:16:14Z",
+            "last_commit": "2026-08-15T14:33:12Z",
             "owner": "caozhiyuan",
             "repo": "copilot-api",
             "stars": 967
@@ -1819,58 +1847,30 @@
         },
         {
           "node_type": "item",
-          "title": "2026-08-13 · agentic-community/mcp-gateway-registry 1.29.0",
-          "description": "1.29.0 - Reusable Egress Hardening & IdP-Authenticated Embeddings",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-15T01:30:44Z",
-            "owner": "agentic-community",
-            "repo": "mcp-gateway-registry",
-            "stars": 862
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "2026-08-14 · askalf/dario v5.5.14",
-          "description": "v5.5.14",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-15T00:33:14Z",
-            "owner": "askalf",
-            "repo": "dario",
-            "stars": 344
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "2026-08-13 · smart-mcp-proxy/mcpproxy-go v0.56.0",
-          "description": "v0.56.0",
+          "title": "2026-08-14 · kittors/CliRelay v0.4.25",
+          "description": "v0.4.25",
           "children": [],
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T20:33:39Z",
-            "owner": "smart-mcp-proxy",
-            "repo": "mcpproxy-go",
-            "stars": 314
+            "last_commit": "2026-08-14T15:33:35Z",
+            "owner": "kittors",
+            "repo": "CliRelay",
+            "stars": 919
           }
         },
         {
           "node_type": "item",
-          "title": "2026-08-13 · tsouth89/toolport v1.13.0",
-          "description": "Toolport v1.13.0",
+          "title": "2026-08-14 · askalf/dario v5.5.16",
+          "description": "v5.5.16",
           "children": [],
           "repo_info": {
             "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-14T23:01:00Z",
-            "owner": "tsouth89",
-            "repo": "toolport",
-            "stars": 167
+            "language": "JavaScript",
+            "last_commit": "2026-08-15T13:15:40Z",
+            "owner": "askalf",
+            "repo": "dario",
+            "stars": 345
           }
         }
       ],
@@ -1915,7 +1915,7 @@
             "last_commit": "2026-08-03T03:09:55Z",
             "owner": "punkpeye",
             "repo": "awesome-mcp-servers",
-            "stars": 92329
+            "stars": 92393
           }
         },
         {
@@ -1929,7 +1929,7 @@
             "last_commit": "2025-07-31T02:38:24Z",
             "owner": "Hannibal046",
             "repo": "Awesome-LLM",
-            "stars": 27264
+            "stars": 27266
           }
         },
         {
@@ -1943,7 +1943,7 @@
             "last_commit": "2026-08-11T04:36:24Z",
             "owner": "kyrolabs",
             "repo": "awesome-langchain",
-            "stars": 9494
+            "stars": 9495
           }
         },
         {
@@ -1957,7 +1957,7 @@
             "last_commit": "2026-07-30T15:05:10Z",
             "owner": "mnfst",
             "repo": "awesome-free-llm-apis",
-            "stars": 6576
+            "stars": 6623
           }
         },
         {
@@ -1971,7 +1971,7 @@
             "last_commit": "2026-05-21T09:12:50Z",
             "owner": "tensorchord",
             "repo": "Awesome-LLMOps",
-            "stars": 5915
+            "stars": 5916
           }
         },
         {
@@ -1998,9 +1998,9 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T02:03:42.777Z",
+    "last_updated": "2026-08-16T02:10:26.573Z",
     "original_repository": "cuihuan/awesome-ai-gateway",
-    "original_repository_sha": "45c3fb651a0604817a8dabc187b57c943cb76650",
+    "original_repository_sha": "5a605bb6ade1659a1faee9e81811efec45181529",
     "enhanced_repository": "enhansome/enhansome-ai-gateway",
     "enhanced_repository_description": null,
     "title": "Awesome AI Gateway with stars"
